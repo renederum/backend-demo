@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-demo-config
+data:
+  PROYECT_NAME: "DERUM APP"
+  NODE_ENV: "production"
